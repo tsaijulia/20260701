@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "gradio>=4.44.0",
     "jupyterlab>=4.6.1",
     "playwright>=1.61.0",
     "ttkbootstrap>=1.10.1",

@@ -1,0 +1,9 @@
+@echo off
+echo 安裝依賴...
+uv sync
+echo.
+echo 安裝 Playwright 瀏覽器...
+uv run playwright install chromium
+echo.
+echo 啟動 Gradio 介面...
+uv run python lesson11/lesson11_5_gradio.py
